@@ -491,6 +491,7 @@
 				0AB035341D1DD6A90069D171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB035351D1DD6A90069D171 /* Build configuration list for PBXNativeTarget "RPC-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				0AB035371D1DD6A90069D171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB035381D1DD6A90069D171 /* Build configuration list for PBXNativeTarget "RPC-2UITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +509,7 @@
 				0AB0353A1D1DD6A90069D171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
