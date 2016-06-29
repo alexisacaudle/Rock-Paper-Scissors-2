@@ -111,15 +111,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69x-UO-sMp">
-                                <rect key="frame" x="0.0" y="20" width="600" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69x-UO-sMp">
+                                <rect key="frame" x="20" y="20" width="560" height="93"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kljfs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRc-zH-L1f">
-                                <rect key="frame" x="0.0" y="164" width="600" height="272"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kljfs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRc-zH-L1f">
+                                <rect key="frame" x="20" y="164" width="560" height="272"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="57"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -133,19 +133,25 @@
                                 <state key="normal" title="Play again">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playAgainButton:" destination="LYi-B6-IJn" eventType="touchUpInside" id="uF6-Uz-6hS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.71164534400000001" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="69x-UO-sMp" firstAttribute="trailing" secondItem="YRc-zH-L1f" secondAttribute="trailing" id="3aQ-hn-Q2p"/>
+                            <constraint firstItem="YRc-zH-L1f" firstAttribute="top" secondItem="69x-UO-sMp" secondAttribute="bottom" constant="51" id="CCL-FD-EZD"/>
                             <constraint firstItem="69x-UO-sMp" firstAttribute="top" secondItem="FLo-yJ-Tbg" secondAttribute="bottom" id="CF1-Dt-hvP"/>
-                            <constraint firstAttribute="trailing" secondItem="69x-UO-sMp" secondAttribute="trailing" id="CGS-08-TtZ"/>
+                            <constraint firstAttribute="trailing" secondItem="69x-UO-sMp" secondAttribute="trailing" constant="20" id="CGS-08-TtZ"/>
                             <constraint firstItem="YRc-zH-L1f" firstAttribute="centerX" secondItem="ttc-80-71O" secondAttribute="centerX" id="D4T-qI-r2n"/>
                             <constraint firstItem="69x-UO-sMp" firstAttribute="leading" secondItem="YRc-zH-L1f" secondAttribute="leading" id="G6S-jw-zbO"/>
                             <constraint firstItem="YRc-zH-L1f" firstAttribute="centerY" secondItem="x6C-SN-GOS" secondAttribute="centerY" id="GVY-SV-Vxt"/>
                             <constraint firstItem="SD1-nx-5GN" firstAttribute="top" secondItem="ttc-80-71O" secondAttribute="bottom" constant="56" id="HWb-xB-EtY"/>
                             <constraint firstItem="ttc-80-71O" firstAttribute="top" secondItem="YRc-zH-L1f" secondAttribute="bottom" constant="78" id="YI5-sC-ufK"/>
-                            <constraint firstItem="69x-UO-sMp" firstAttribute="leading" secondItem="x6C-SN-GOS" secondAttribute="leading" id="hIW-Mg-6WY"/>
+                            <constraint firstItem="ttc-80-71O" firstAttribute="top" secondItem="YRc-zH-L1f" secondAttribute="bottom" constant="78" id="aky-Xf-hKi"/>
+                            <constraint firstItem="YRc-zH-L1f" firstAttribute="top" secondItem="69x-UO-sMp" secondAttribute="bottom" constant="51" id="gRN-C7-uTE"/>
+                            <constraint firstItem="69x-UO-sMp" firstAttribute="leading" secondItem="x6C-SN-GOS" secondAttribute="leading" constant="20" id="hIW-Mg-6WY"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
@@ -160,6 +166,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eyg-33-rXv"/>
+        <segue reference="l7Z-uF-YAi"/>
     </inferredMetricsTieBreakers>
 </document>
