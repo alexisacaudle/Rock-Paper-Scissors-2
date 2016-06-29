@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="239" width="600" height="181"/>
                                 <color key="backgroundColor" red="0.71164534400000001" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="🖐🏻"/>
+                                <state key="normal" title="🖐"/>
                                 <connections>
                                     <action selector="paperButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SoZ-zB-M5V"/>
                                     <segue destination="LYi-B6-IJn" kind="show" id="eyg-33-rXv"/>
@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="height" constant="180" id="olp-Tp-WHl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="✌🏻"/>
+                                <state key="normal" title="✌️"/>
                                 <connections>
                                     <action selector="scissorsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2hy-Ub-yPF"/>
                                     <segue destination="LYi-B6-IJn" kind="show" id="l7Z-uF-YAi"/>
@@ -53,7 +53,7 @@
                                     <constraint firstAttribute="height" constant="180" id="rYT-1f-TQq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="✊🏻"/>
+                                <state key="normal" title="✊"/>
                                 <connections>
                                     <action selector="rockButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUX-6c-UGC"/>
                                     <segue destination="LYi-B6-IJn" kind="show" id="By7-IR-lPo"/>
@@ -93,6 +93,7 @@
                             <constraint firstItem="Bun-Nn-hpE" firstAttribute="trailing" secondItem="8Io-qf-7XD" secondAttribute="trailing" id="xSh-Uj-fSx"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -154,6 +155,7 @@
                             <constraint firstItem="69x-UO-sMp" firstAttribute="leading" secondItem="x6C-SN-GOS" secondAttribute="leading" constant="20" id="hIW-Mg-6WY"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="computerResultsLabel" destination="69x-UO-sMp" id="CsK-ik-kcu"/>

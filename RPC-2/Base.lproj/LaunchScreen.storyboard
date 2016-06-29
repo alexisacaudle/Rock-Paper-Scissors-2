@@ -16,7 +16,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RPSlaunch" translatesAutoresizingMaskIntoConstraints="NO" id="tOS-3U-arq">
+                                <rect key="frame" x="174" y="155" width="253" height="289"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="Qs8-3R-wBT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71164534400000001" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tOS-3U-arq" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="135" id="YFA-Fd-Muq"/>
+                            <constraint firstItem="tOS-3U-arq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rcU-46-z5w"/>
+                            <constraint firstItem="tOS-3U-arq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ums-kx-sKl"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="RPSlaunch" width="629" height="719"/>
+    </resources>
 </document>
